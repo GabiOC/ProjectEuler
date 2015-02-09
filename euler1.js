@@ -8,4 +8,4 @@ for(i=0; i<limit; i++){
         sum += i};
     };
  
- console.log(sum);
+ console.log(sum); // answer = 233168

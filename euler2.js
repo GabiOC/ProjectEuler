@@ -15,4 +15,5 @@ while(current<limit){
 	current += last;
 	last = temp;
 };
-console.log(sum);
+
+console.log(sum); // answer = 4613732
