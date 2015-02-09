@@ -27,4 +27,4 @@ for(j=0; j<factors.length; j++){
 
 var largestPrime = Math.max.apply(Math, primeFactors);
 
-console.log(largestPrime);
+console.log(largestPrime); // answer = 6857
