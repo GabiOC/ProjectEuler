@@ -2,8 +2,9 @@
 
 var sum = 0;
 var limit = 1000;
+var i = 0;
     
-for(i=0; i<limit; i++){
+for(i; i<limit; i++){
     if(i%5 == 0 || i%3 == 0){
         sum += i};
     };
