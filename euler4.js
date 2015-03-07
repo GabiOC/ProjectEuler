@@ -2,21 +2,13 @@
 
 var x;
 var y;
-var product;
 var prodArray = [];
-
-function palindrome(i){
-	var pal = parseInt(i.toString().split("").reverse("").join(""));
-	if(pal == i)
-		return true;
-	else
-		return false;
-}
 
 for(x = 100; x <= 999; x++){
 	for(y = x; y <= 999; y++){
-		product = x * y;
-		if(palindrome(product) == true){
+		var product = x * y;
+		var palTest = parseInt(product.toString().split("").reverse("").join(""));
+		if(palTest == product) {
 			prodArray.push(product);
 		}
 	}
